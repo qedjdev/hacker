@@ -3,3 +3,10 @@ description: Opinions from a third year CS student '25.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
+url: "https://blog.wakefield.fyi"
+baseurl: ""
+defaults:
+  - scope:
+      path: ""
+    values:
+      permalink: /:basename/

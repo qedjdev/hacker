@@ -24,4 +24,4 @@ layout: default
 - [CS4500](https://course.ccs.neu.edu/cs4500f24/) Java
 - [CS4400](https://pages.github.khoury.northeastern.edu/sholtzen/cs4400-fall24/) Racket
 
-[back](./)
+[back](/)
