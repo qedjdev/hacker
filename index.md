@@ -3,7 +3,7 @@ layout: default
 ---
 
 # [Fundies Curriculum Changes](#fundies)
-
+> 21 November 2024
 ### Context
 Check out the ***relevant*** [classes I've taken](classes.html)
 <hr>
