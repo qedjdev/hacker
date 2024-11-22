@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Fundies Curriculum Changes
+# [Fundies Curriculum Changes](#fundies)
 
 ### Context
 Check out the ***relevant*** [classes I've taken](classes)
@@ -26,6 +26,9 @@ Switching the language of the fundies curriculum could work. If students are fre
 From this perspective, I completely understand the reasoning behind switching to Python. It's very easy to make tangible stuff. However, this is beating around the bush. The problem is that students are tasked with developing practical skills on their own through curiosity, or by necessity in higher level classes, in a trial-by-fire. <br> Additionally, Python is a *scripting language*. It is not suitable for <br> *big* software design----the primary focus of Northeastern's curriculum which has built many strong professionals and given us such a good reputation in industry.
 
 Racket is still very useful. It is a wonderful, energetic, fun language. I have enjoyed using it in Dr. Holtzen's Programming Languages class, and frankly, that is where it belongs. Some of its benefits to the early fundies curriculum have been aged out by AI.
+<br>
+<hr>
+Stripping the early curriculum of its design-first roots in [HTDP](https://htdp.org/2020-5-6/Book/index.html) does not solve the core issue and will probably create a lot of unwanted problems downstream in the curriculum when students are unequipped to solve broad, complex design problems like the ones they face out in the real world.
 <br>
 <br>
 <br>
