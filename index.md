@@ -2,122 +2,47 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Fundies Curriculum Changes
 
-[Link to another page](./another-page.html).
+### Context
+Check out the ***relevant*** [classes I've taken](classes)
+<hr>
+I am not close with Dr. Felleisen or any faculty at Northeastern. \
+I have programming experience from [middle](https://www.pinecrest.edu/student-experience/stem) and [high-school](https://www.pinecrest.edu/student-experience/stem). \
+I [grew up around](https://www.linkedin.com/in/alexwakefield/) low-level computer science. \
+I didn't perform very well in CS2510 or CS3800 for personal reasons `</3`
 
-There should be whitespace between paragraphs.
+<br>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### Opinion
+I strongly agree that the current Undergrad CS curriculum needs to be changed. I do not think trashing the [HTDP](https://htdp.org/2020-5-6/Book/index.html) approach is the right angle for these changes.
 
-# Header 1
+Fundies 1, Fundies 2, and OOD developed my design skills to an elite level as rated by employers and friends at other universities. I attribute this primarily to a great lecture style and teaching philosophy stemming from [HTDP](https://htdp.org/2020-5-6/Book/index.html). Still, I felt that Fundies 1, Fundies 2, and OOD had not provided me with the practical skills to build and ship a functioning project on my own.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+These practical skills came from two other classes: `Computer Systems` taught by Gene Cooperman and `Networks & Distributed Systems` taught by Alden Jackson. I did not attend these classes' lectures! <br> Rather, I learned because submission frameworks were not provided to the students--If you wanted to see if your project worked, you had to *build* and *run* it yourself. <br> Unfortunately, it seems that these practical skills were not really part of the curriculum. Instead, they were purely artifacts of good professors.
 
-## Header 2
+Switching the language of the fundies curriculum could work. If students are free to learn and develop their knowledge *on their own*, there could be a large benefit. This is difficult to do in Racket----where do you go for help? Who's going to install racket to see some crummy app you made? Getting Ruby or Racket or Java running can be annoying, especially for students without CLI experience. Getting a project set up to run on *any* machine in those languages can be annoying even for seasoned professionals. I can imagine this being the point of frustration for professors without a supporting network.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+From this perspective, I completely understand the reasoning behind switching to Python. It's very easy to make tangible stuff. However, this is beating around the bush. The problem is that students are tasked with developing practical skills on their own through curiosity, or by necessity in higher level classes, in a trial-by-fire. <br> Additionally, Python is a *scripting language*. It is not suitable for <br> *big* software design----the primary focus of Northeastern's curriculum which has built many strong professionals and given us such a good reputation in industry.
 
-### Header 3
+Racket is still very useful. It is a wonderful, energetic, fun language. I have enjoyed using it in Dr. Holtzen's Programming Languages class, and frankly, that is where it belongs. Some of its benefits to the early fundies curriculum have been aged out by AI.
+<br>
+<br>
+<br>
+### Footnote
+yes, I created a blog page _specifically_ to jump on the bandwagon and share my opinion on this topic. I might use it later. Inspired by other students' pieces on [ari's site](https://ariscript.org/blog/khoury/voices/). Go check her out.
+<br>
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+<br>
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+<br>
 
-#### Header 4
+<br>
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+Made with `<3`, AI-free, using a fork I made of the [Hacker](https://github.com/pages-themes/hacker) theme for Jekyll.
+<br>
 
-##### Header 5
+<br>
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+<br>
 
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```

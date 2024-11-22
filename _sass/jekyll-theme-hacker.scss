@@ -6,7 +6,7 @@ $body-foreground: $gallery !default;
 $header: $conifer !default;
 $blockquote-color: $silver-chalice !default;
 $blockquote-border: $dove-grey !default;
-$container-max-width: 1000px;
+$container-max-width: 75ch;
 
 @mixin media-max-width($max-width) {
   @media (max-width: $max-width) {
@@ -27,7 +27,7 @@ body {
 /* General & 'Reset' Stuff */
 
 .container {
-  width: 90%;
+  width: 80%;
   max-width: $container-max-width;
   margin: 0 auto;
 }
@@ -54,7 +54,7 @@ li {
 header {
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  border-bottom: 1px dashed $conifer; //header;
+  border-bottom: 1px solid $conifer; //header;
   padding: 20px 0;
   margin: 0 0 40px 0;
 }
@@ -78,7 +78,7 @@ header h1 {
 
 
 header h1:before {
-  content: "./ ";
+  content: "~/";
   font-size: 24px;
 }
 
@@ -105,7 +105,7 @@ section img {
   max-width: 100%
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   font-weight: normal;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: $header;
@@ -113,6 +113,16 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: $header;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(104, 134, 48, 0.1),
+               0 0 10px rgba(42, 54, 20, 0.1);
 }
 
 #main_content h1 {
@@ -198,7 +208,7 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
+  border-bottom: 1px solid #b5e853;
   color: #b5e853;
 }
 
