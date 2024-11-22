@@ -27,7 +27,11 @@ body {
 /* General & 'Reset' Stuff */
 
 .container {
-  width: 80%;
+  @media (min-width: 600px) {
+    width: 80%;
+  }
+  width: 90%;
+  transition: width 2.3s ease;
   max-width: $container-max-width;
   margin: 0 auto;
 }

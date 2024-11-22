@@ -5,7 +5,7 @@ layout: default
 # [Fundies Curriculum Changes](#fundies)
 
 ### Context
-Check out the ***relevant*** [classes I've taken](classes)
+Check out the ***relevant*** [classes I've taken](classes.html)
 <hr>
 I am not close with Dr. Felleisen or any faculty at Northeastern. \
 I have programming experience from [middle](https://www.pinecrest.edu/student-experience/stem) and [high-school](https://www.pinecrest.edu/student-experience/stem). \

@@ -5,8 +5,8 @@ google_analytics:
 theme: jekyll-theme-hacker
 url: "https://blog.wakefield.fyi"
 baseurl: ""
-defaults:
-  - scope:
-      path: ""
-    values:
-      permalink: /:basename/
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       permalink: /:basename/
